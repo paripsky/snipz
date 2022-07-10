@@ -9,7 +9,7 @@ import {
 import Editor from '@monaco-editor/react';
 import React, { useEffect, useState } from 'react';
 
-import Snip from '@/pages/SnipPage/Components/Snip';
+import Snip from '@/pages/SnipPage/components/Snip';
 
 export type SnipEditorProps = {
   children?: React.ReactNode;

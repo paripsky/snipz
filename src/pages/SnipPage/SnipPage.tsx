@@ -14,8 +14,8 @@ import { useParams } from 'react-router-dom';
 
 import { useSnips } from '@/context/snips';
 
-const Snip = React.lazy(() => import('@/pages/SnipPage/Components/Snip'));
-const SnipEditor = React.lazy(() => import('@/pages/SnipPage/Components/SnipEditor'));
+const Snip = React.lazy(() => import('@/pages/SnipPage/components/Snip'));
+const SnipEditor = React.lazy(() => import('@/pages/SnipPage/components/SnipEditor'));
 
 function SnipPage() {
   const { snipId } = useParams();
